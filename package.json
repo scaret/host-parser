@@ -1,0 +1,29 @@
+{
+  "name": "host-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scaret/host-parser.git"
+  },
+  "devDependencies": {
+    "eslint": "3.16.1",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-markdown": "1.0.0-beta.3",
+    "eslint-plugin-promise": "3.4.2",
+    "eslint-plugin-standard": "2.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "2.5.3",
+    "supertest": "1.1.0"
+  },
+  "author": "scaret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scaret/host-parser/issues"
+  },
+  "homepage": "https://github.com/scaret/host-parser#readme"
+}
